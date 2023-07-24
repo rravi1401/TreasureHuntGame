@@ -1,0 +1,123 @@
+.leaderboard-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.leaderboard-container h2 {
+  margin-bottom: 20px;
+  color: rgb(86, 82, 82);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  background-color: #47c9af;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e5e5e5;
+}
+
+.soft-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.soft-skills p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #47c9af;
+}
+
+.soft-skills span {
+  font-size: 14px;
+  font-weight: normal;
+  color: #666666;
+}
+
+.total-score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #47c9af;
+}
+
+.email {
+  font-size: 16px;
+  font-weight: normal;
+  color: #666666;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+
+  .soft-skills p {
+    font-size: 14px;
+  }
+
+  .total-score {
+    font-size: 18px;
+  }
+
+  .email {
+    font-size: 14px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+}
+
+.logout-btn {
+  background-color: #47c9af;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+
+.logout-btn:hover {
+  background-color: #228b6f;
+}

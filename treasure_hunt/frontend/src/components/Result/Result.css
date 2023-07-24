@@ -1,0 +1,99 @@
+.result-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.result-container h2 {
+  margin-bottom: 20px;
+}
+
+.accuracy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.accuracy h5 {
+  margin-right: 5px;
+}
+
+.soft-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.skill {
+  margin: 0 10px;
+}
+
+.skill h5 {
+  margin-right: 5px;
+}
+
+.skill-bar {
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  height: 30px;
+  margin: 10px 0;
+  overflow: hidden;
+  width: 200px;
+}
+
+.skill-progress {
+  background-color: #47c9af;
+  border-radius: 10px;
+  height: 100%;
+  text-align: center;
+  transition: width 0.3s ease-in-out;
+}
+
+.skill-progress p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.total-points {
+  margin-bottom: 20px;
+}
+
+.total-points h5 {
+  margin-right: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.leaderboard-button,
+.logout-button {
+  background-color: #47c9af;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.leaderboard-button:hover,
+.logout-button:hover {
+  background-color: #33a792;
+}
+
+p {
+  font-size: large;
+  margin: 10px 0;
+}

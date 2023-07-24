@@ -1,0 +1,54 @@
+/* Style for the dashboard container */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Style for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  padding: 0 20px;
+}
+
+/* Style for the dashboard sections */
+.dashboard__section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Style for the dashboard section titles */
+.dashboard__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style for the skills graph */
+.skills-graph {
+  height: 400px;
+}
+
+/* Style for the score graph */
+.score-graph {
+  height: 400px;
+}
+
+/* Style for the time graph */
+.time-graph {
+  height: 400px;
+}
